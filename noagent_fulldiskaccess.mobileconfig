@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>NinjaOne Agent - Full Disk Access</string>
+			<key>PayloadDisplayName</key>
+			<string>NinjaOne Agent - Full Disk Access</string>
+			<key>PayloadIdentifier</key>
+			<string>5350F2C9-9B8F-44A6-889E-A4C7F6004E53</string>
+			<key>PayloadOrganization</key>
+			<string>NinjaOne Community</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>1989ED7C-5C52-4D30-8AEA-88E7A9111EE7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadRemovalDisallowed</key>
+			<true/>
+			<key>PayloadScope</key>
+			<string>System</string>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "ninjarmm-macagent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EBNT3ZX97E</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Applications/NinjaRMMAgent/programfiles/ninjarmm-macagent</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>NinjaOne Agent - Full Disk Access</string>
+	<key>PayloadDisplayName</key>
+	<string>NinjaOne Agent - Full Disk Access</string>
+	<key>PayloadIdentifier</key>
+	<string>5350F2C9-9B8F-44A6-889E-A4C7F6004E53</string>
+	<key>PayloadOrganization</key>
+	<string>NinjaOne Community</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9D0E1F42-470A-4D7F-B8CF-F4925B3C3F6C</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+</dict>
+</plist>

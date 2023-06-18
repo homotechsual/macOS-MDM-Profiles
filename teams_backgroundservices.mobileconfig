@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+    <dict>
+        <key>PayloadUUID</key>
+        <string>472DD66D-EC58-4532-A42B-02A780EE30CA</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadOrganization</key>
+        <string>Microsoft Corporation</string>
+        <key>PayloadIdentifier</key>
+        <string>472DD66D-EC58-4532-A42B-02A780EE30CA</string>
+        <key>PayloadDisplayName</key>
+        <string>Background Service Configuration Profile</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDescription</key>
+                <string>Background Service Management for Microsoft Teams</string>
+                <key>PayloadIdentifier</key>
+                <string>81CE2AC5-2E64-4931-856B-FD87B1D5C329</string>
+                <key>PayloadUUID</key>
+                <string>81CE2AC5-2E64-4931-856B-FD87B1D5C329</string>
+                <key>Rules</key>
+                <array>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.microsoft.teams.TeamsUpdaterDaemon</string>
+                    </dict>
+                </array>
+                <key>PayloadType</key>
+                <string>com.apple.servicemanagement</string>
+                <key>PayloadDisplayName</key>
+                <string>Background Service Management for Microsoft Teams</string>
+            </dict>
+        </array>
+    </dict>
+</plist>

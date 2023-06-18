@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+    <dict>
+        <key>PayloadUUID</key>
+        <string>B2248DE9-F9F4-4D80-9D8E-C714F14549FE</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadOrganization</key>
+        <string>Microsoft Corporation</string>
+        <key>PayloadIdentifier</key>
+        <string>B2248DE9-F9F4-4D80-9D8E-C714F14549FE</string>
+        <key>PayloadDisplayName</key>
+        <string>Background Service Configuration Profile</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDescription</key>
+                <string>Background Service Management for Microsoft OneDrive</string>
+                <key>PayloadIdentifier</key>
+                <string>B05363E2-51F1-4015-B688-0FAACDDA4B51</string>
+                <key>PayloadUUID</key>
+                <string>B05363E2-51F1-4015-B688-0FAACDDA4B51</string>
+                <key>Rules</key>
+                <array>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.microsoft.OneDriveStandaloneUpdaterDaemon</string>
+                    </dict>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.microsoft.OneDriveUpdaterDaemon</string>
+                    </dict>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.microsoft.syncreporter</string>
+                    </dict>
+                </array>
+                <key>PayloadType</key>
+                <string>com.apple.servicemanagement</string>
+                <key>PayloadDisplayName</key>
+                <string>Background Service Management for Microsoft OneDrive</string>
+            </dict>
+        </array>
+    </dict>
+</plist>

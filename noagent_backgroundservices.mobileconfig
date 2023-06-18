@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+    <dict>
+        <key>PayloadUUID</key>
+        <string>991E81F1-DF18-43DB-999E-C608F56C8E27</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadOrganization</key>
+        <string>NinjaOne Community</string>
+        <key>PayloadIdentifier</key>
+        <string>991E81F1-DF18-43DB-999E-C608F56C8E27</string>
+        <key>PayloadDisplayName</key>
+        <string>Background Service Configuration Profile</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDescription</key>
+                <string>Background Service Management for NinjaOne Agent</string>
+                <key>PayloadIdentifier</key>
+                <string>BC3159C0-6EE5-4A34-B3F8-03DA449A9019</string>
+                <key>PayloadUUID</key>
+                <string>BC3159C0-6EE5-4A34-B3F8-03DA449A9019</string>
+                <key>Rules</key>
+                <array>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.ninjarmm.agentd</string>
+                    </dict>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.ninjarmm.patcher</string>
+                    </dict>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.ninjarmm.njdialog</string>
+                    </dict>
+                    <dict>
+                        <key>RuleType</key>
+                        <string>LabelPrefix</string>
+                        <key>RuleValue</key>
+                        <string>com.ninjarmm.trayicon</string>
+                    </dict>
+                </array>
+                <key>PayloadType</key>
+                <string>com.apple.servicemanagement</string>
+                <key>PayloadDisplayName</key>
+                <string>Background Service Management for NinjaOne Agent</string>
+            </dict>
+        </array>
+    </dict>
+</plist>

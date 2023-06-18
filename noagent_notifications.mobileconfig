@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+    <dict>
+        <key>PayloadUUID</key>
+        <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadOrganization</key>
+        <string>NinjaOne Community</string>
+        <key>PayloadIdentifier</key>
+        <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+        <key>PayloadDisplayName</key>
+        <string>NinjaOne Agent Notifications</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadDisplayName</key>
+                <string>Notifications Payload</string>
+                <key>PayloadIdentifier</key>
+                <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+                <key>PayloadOrganization</key>
+                <string>NinjaOne Community</string>
+                <key>PayloadType</key>
+                <string>com.apple.notificationsettings</string>
+                <key>PayloadUUID</key>
+                <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>NotificationSettings</key>
+                <array>
+                    <dict>
+                        <key>AlertType</key>
+                        <integer>1</integer>
+                        <key>BadgesEnabled</key>
+                        <true/>
+                        <key>BundleIdentifier</key>
+                        <string>com.ninjarmm.njdialog</string>
+                        <key>CriticalAlertEnabled</key>
+                        <false/>
+                        <key>NotificationsEnabled</key>
+                        <true/>
+                        <key>ShowInLockScreen</key>
+                        <false/>
+                        <key>ShowInNotificationCenter</key>
+                        <true/>
+                        <key>SoundsEnabled</key>
+                        <true/>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
