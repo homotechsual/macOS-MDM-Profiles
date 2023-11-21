@@ -10,13 +10,13 @@
 			<key>PayloadDisplayName</key>
 			<string>NinjaOne Agent - Full Disk Access</string>
 			<key>PayloadIdentifier</key>
-			<string>5350F2C9-9B8F-44A6-889E-A4C7F6004E53</string>
+			<string>ae1029a4-88aa-11ee-b9d1-0242ac120002</string>
 			<key>PayloadOrganization</key>
 			<string>NinjaOne Community</string>
 			<key>PayloadType</key>
 			<string>com.apple.TCC.configuration-profile-policy</string>
 			<key>PayloadUUID</key>
-			<string>1989ED7C-5C52-4D30-8AEA-88E7A9111EE7</string>
+			<string>ae1029a4-88aa-11ee-b9d1-0242ac120002</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadRemovalDisallowed</key>
@@ -48,7 +48,7 @@
 	<key>PayloadDisplayName</key>
 	<string>NinjaOne Agent - Full Disk Access</string>
 	<key>PayloadIdentifier</key>
-	<string>5350F2C9-9B8F-44A6-889E-A4C7F6004E53</string>
+	<string>d8292218-88aa-11ee-b9d1-0242ac120002</string>
 	<key>PayloadOrganization</key>
 	<string>NinjaOne Community</string>
 	<key>PayloadScope</key>
@@ -56,7 +56,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>9D0E1F42-470A-4D7F-B8CF-F4925B3C3F6C</string>
+	<string>d8292218-88aa-11ee-b9d1-0242ac120002</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadRemovalDisallowed</key>
