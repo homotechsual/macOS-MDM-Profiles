@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>NinjaOne Backup - Full Disk Access</string>
+			<key>PayloadDisplayName</key>
+			<string>NinjaOne Backup</string>
+			<key>PayloadIdentifier</key>
+			<string>1CB8403B-EA0C-4174-B61E-9F70F1390F50</string>
+			<key>PayloadOrganization</key>
+			<string>NinjaOne Community</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>97858B54-573B-4245-8449-6BB41359B6CA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier lockhart and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EBNT3ZX97E</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/Applications/NinjaRMMAgent/programfiles/lockhart/bin/lockhart</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>NinjaOne Backup - Full Disk Access</string>
+	<key>PayloadDisplayName</key>
+	<string>NinjaOne Backup</string>
+	<key>PayloadIdentifier</key>
+	<string>1CB8403B-EA0C-4174-B61E-9F70F1390F50</string>
+	<key>PayloadOrganization</key>
+	<string>NinjaOne Community</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>01638526-E910-4634-A490-285834935A0D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
