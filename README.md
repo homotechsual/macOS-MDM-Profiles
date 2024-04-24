@@ -92,7 +92,7 @@ These profiles were created by me and are not officially supported by NinjaOne.
 
   This profile configures the NinjaOne Agent notification settings on macOS and prevents these being disabled by the user.
 
-* ### [Ninja Remote](nr_pppc.mobileconfig)
+* #### [Ninja Remote](nr_pppc.mobileconfig)
 
   This profile configures the Ninja Remote streamer application to remove the admin requirement for screen sharing and pre-consenting accessibility, full disk, network and removable volume access.
 
