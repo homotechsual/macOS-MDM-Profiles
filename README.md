@@ -92,6 +92,10 @@ These profiles were created by me and are not officially supported by NinjaOne.
 
   This profile configures the NinjaOne Agent notification settings on macOS and prevents these being disabled by the user.
 
+* ### [Ninja Remote](nr_pppc.mobileconfig)
+
+  This profile configures the Ninja Remote streamer application to remove the admin requirement for screen sharing and pre-consenting accessibility, full disk, network and removable volume access.
+
 ## Pushing Profiles to macOS with Microsoft Intune
 
 You can push these profiles to macOS with Microsoft Intune. To do so, follow the steps outlined in [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mac-install-with-intune?view=o365-worldwide#create-system-configuration-profiles) ensuring you enter an appropriate name and description for each profile and upload the appropriate profile from this repository.
