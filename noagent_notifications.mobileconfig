@@ -9,7 +9,7 @@
         <key>PayloadOrganization</key>
         <string>NinjaOne Community</string>
         <key>PayloadIdentifier</key>
-        <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+        <string>056a100f-284c-4bc1-8d42-74c4dd7e01ee</string>
         <key>PayloadDisplayName</key>
         <string>NinjaOne Agent Notifications</string>
         <key>PayloadDescription</key>
@@ -28,13 +28,13 @@
                 <key>PayloadDisplayName</key>
                 <string>Notifications Payload</string>
                 <key>PayloadIdentifier</key>
-                <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+                <string>46d74f34-78b6-43a2-a7a1-abce82c019d1</string>
                 <key>PayloadOrganization</key>
                 <string>NinjaOne Community</string>
                 <key>PayloadType</key>
                 <string>com.apple.notificationsettings</string>
                 <key>PayloadUUID</key>
-                <string>747B8C9B-34F0-4E51-82D7-E848FAA62420</string>
+                <string>a985d58b-d9a8-4459-afa2-825d1141d654</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>NotificationSettings</key>
